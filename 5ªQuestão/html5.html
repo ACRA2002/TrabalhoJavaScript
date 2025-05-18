@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="css5.css">
+</head>
+<body>
+     <video autoplay loop muted playsinline id="background-video">
+        <source src=".mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+    <div class="container">
+        <h2>Adivinhe o número!</h2>
+        <p>Escolha um número entre 1 e 10:</p>
+        <input type="number" id="userGuess" min="1" max="10">
+        <button onclick="verificarPalpite()">Enviar</button>
+        <p id="message"></p>
+        <p>Tentativas: <span id="attempts">0</span></p>
+    </div>
+    <script src="js5.js"></script>
+</body>
+</html>

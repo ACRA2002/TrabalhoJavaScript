@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+.cor {
+    color:#FFDEAD;
+}
+
+label {
+    color: #FFDEAD;
+    font-size: 26px;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.font {
+    font-family: Underdog;
+}
+
+.caixacor {
+    color: white;
+    background-color: black;
+    padding: 3px;
+    border: 1px solid gray;
+}
+
+.caixacor::placeholder {
+    color: #FFD700;
+}
+
+.botao {
+    background-color: black;
+    color: #FFD700;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.resultado {
+    border: 2px solid #FFD700;
+    background-color: black;
+    color: #FFDEAD;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('smoke.jpg'); 
+    background-size: cover; 
+    background-size: 100% 100%;
+    background-position: center; 
+    background-attachment: fixed; 
+}

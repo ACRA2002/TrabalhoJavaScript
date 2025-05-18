@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 2em;
+    background-image: url('Terra.png'); 
+    background-size: cover; 
+    background-size: 100% 100%;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+#clock {
+    font-size: 3em;
+}
